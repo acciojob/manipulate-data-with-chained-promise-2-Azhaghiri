@@ -22,7 +22,7 @@ function manipulateArray() {
 				const sum = eventNumbers.map(num => num * 2);
 				output.innerHTML = sum.join(", ")
 				resolve(sum)
-			},3000)
+			},2000)
 		})
 	})
 }
