@@ -5,7 +5,7 @@ function manipulateArray() {
 	new Promise((resolve) => {
 		setTimeout(() => {
 			resolve([1, 2, 3, 4])
-		},1000)
+		})
 	})
 	.then((array) => {
 		return new Promise((resolve) => {
@@ -22,7 +22,7 @@ function manipulateArray() {
 				const sum = eventNumbers.map(num => num * 2);
 				output.innerHTML = sum.join(", ")
 				resolve(sum)
-			},2000)
+			},3000)
 		})
 	})
 }
