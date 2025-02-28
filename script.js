@@ -21,7 +21,7 @@ function manipulateArray() {
 				const doubled = evenNumbers.map(num => num * 2);
 				output.innerHTML = doubled.join(", ");
 				resolve(doubled);
-			}, 2000);
+			}, 3000);
 		});
 	});
 }
